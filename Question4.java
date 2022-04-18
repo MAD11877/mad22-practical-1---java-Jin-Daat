@@ -17,17 +17,15 @@ public class Question4
      * Hint: 2 loops are required. System.out.print(...) to print on single line.
      */
      
-    //Question 4
-    Scanner sc = new Scanner(System.in);
-    System.out.print("Enter a number:");
-    int num = sc.nextInt();
+    Scanner in = new Scanner(System.in);
+    //Get user input
+    System.out.print("Enter a number: ");
+    int num = in.nextInt();
     for (int i = num; i > 0; i --){
         for (int n = 0; n < i; n ++){
             System.out.print("*");
         }
         System.out.print("\n");
     }
-
-    
   }
 }
