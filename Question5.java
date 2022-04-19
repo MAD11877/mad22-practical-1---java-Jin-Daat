@@ -36,13 +36,13 @@ public class Question5
     int mode = 0;
     
     //Get user input for the number of prompts
-    System.out.print("Number of prompts: ");
+    //System.out.print("Number of prompts: ");
     int promptNum = in.nextInt();
     
     //Start the loop to key in number depending on number of prompt
     for (int i = 0; i < promptNum; i ++){
         //Ask user for a number
-        System.out.print("\nEnter a number: ");
+        //System.out.print("\nEnter a number: ");
         int num = in.nextInt();
         //Add the number to the list
         numList.add(num);
@@ -68,7 +68,7 @@ public class Question5
         }
     }
     //Print the final result 
-    System.out.println("Modal number is : " + mode);
+    System.out.println(mode);
     
   }
 }
