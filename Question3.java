@@ -12,8 +12,8 @@ public class Question3
      
     Scanner in = new Scanner(System.in);
     //Prompt user for input
-    System.out.print("Please enter a number: ");
+    //System.out.print("Please enter a number: ");
     int num = in.nextInt();
-    System.out.println("Result: " + (num*num));
+    System.out.println(num*num);
   }
 }
